@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="icon" href="Minesweeper_1992.png">
+    <link rel="stylesheet" type="text/css" href="minesweeper.css">
+    <script src="minesweeper.js"></script>
+</head>
+<body>
+    <header id="title"><u>Minesweeper</u></header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="Minesweeper_1992.png" height="30px" id="minesweeper">
+    <h3 id="mineCount"></h3>
+    <img src="flag.png" height="30px" id="flag">
+    <h3 id="flagCount"></h3>
+    <br>
+    <br>
+    <h3 id="stopwatch">Timer: 0</h3>
+    <!-- <br>
+    <input type="text" name="" id="mCount" value="20"> -->
+    <h1 id="decision"></h1>
+    <br>
+    <div class="game">
+        <div class="tile" id="1"></div>
+        <div class="tile" id="2"></div>
+        <div class="tile" id="3"></div>
+        <div class="tile" id="4"></div>
+        <div class="tile" id="5"></div>
+        <div class="tile" id="6"></div>
+        <div class="tile" id="7"></div>
+        <div class="tile" id="8"></div>
+        <div class="tile" id="9"></div>
+        <div class="tile" id="10"></div>
+        <div class="tile" id="11"></div>
+        <div class="tile" id="12"></div>
+        <div class="tile" id="13"></div>
+        <div class="tile" id="14"></div>
+        <div class="tile" id="15"></div>
+        <div class="tile" id="16"></div>
+        <div class="tile" id="17"></div>
+        <div class="tile" id="18"></div>
+        <div class="tile" id="19"></div>
+        <div class="tile" id="20"></div>
+        <div class="tile" id="21"></div>
+        <div class="tile" id="22"></div>
+        <div class="tile" id="23"></div>
+        <div class="tile" id="24"></div>
+        <div class="tile" id="25"></div>
+        <div class="tile" id="26"></div>
+        <div class="tile" id="27"></div>
+        <div class="tile" id="28"></div>
+        <div class="tile" id="29"></div>
+        <div class="tile" id="30"></div>
+        <div class="tile" id="31"></div>
+        <div class="tile" id="32"></div>
+        <div class="tile" id="33"></div>
+        <div class="tile" id="34"></div>
+        <div class="tile" id="35"></div>
+        <div class="tile" id="36"></div>
+        <div class="tile" id="37"></div>
+        <div class="tile" id="38"></div>
+        <div class="tile" id="39"></div>
+        <div class="tile" id="40"></div>
+        <div class="tile" id="41"></div>
+        <div class="tile" id="42"></div>
+        <div class="tile" id="43"></div>
+        <div class="tile" id="44"></div>
+        <div class="tile" id="45"></div>
+        <div class="tile" id="46"></div>
+        <div class="tile" id="47"></div>
+        <div class="tile" id="48"></div>
+        <div class="tile" id="49"></div>
+        <div class="tile" id="50"></div>
+        <div class="tile" id="51"></div>
+        <div class="tile" id="52"></div>
+        <div class="tile" id="53"></div>
+        <div class="tile" id="54"></div>
+        <div class="tile" id="55"></div>
+        <div class="tile" id="56"></div>
+        <div class="tile" id="57"></div>
+        <div class="tile" id="58"></div>
+        <div class="tile" id="59"></div>
+        <div class="tile" id="60"></div>
+        <div class="tile" id="61"></div>
+        <div class="tile" id="62"></div>
+        <div class="tile" id="63"></div>
+        <div class="tile" id="64"></div>
+        <div class="tile" id="65"></div>
+        <div class="tile" id="66"></div>
+        <div class="tile" id="67"></div>
+        <div class="tile" id="68"></div>
+        <div class="tile" id="69"></div>
+        <div class="tile" id="70"></div>
+        <div class="tile" id="71"></div>
+        <div class="tile" id="72"></div>
+        <div class="tile" id="73"></div>
+        <div class="tile" id="74"></div>
+        <div class="tile" id="75"></div>
+        <div class="tile" id="76"></div>
+        <div class="tile" id="77"></div>
+        <div class="tile" id="78"></div>
+        <div class="tile" id="79"></div>
+        <div class="tile" id="80"></div>
+        <div class="tile" id="81"></div>
+        <div class="tile" id="82"></div>
+        <div class="tile" id="83"></div>
+        <div class="tile" id="84"></div>
+        <div class="tile" id="85"></div>
+        <div class="tile" id="86"></div>
+        <div class="tile" id="87"></div>
+        <div class="tile" id="88"></div>
+        <div class="tile" id="89"></div>
+        <div class="tile" id="90"></div>
+        <div class="tile" id="91"></div>
+        <div class="tile" id="92"></div>
+        <div class="tile" id="93"></div>
+        <div class="tile" id="94"></div>
+        <div class="tile" id="95"></div>
+        <div class="tile" id="96"></div>
+        <div class="tile" id="97"></div>
+        <div class="tile" id="98"></div>
+        <div class="tile" id="99"></div>
+        <div class="tile" id="100"></div>        
+    </div>
+    <br>
+    <br>
+    <button id="restart" onclick="restartGame()">Reset</button>
+    <br>
+</body>
+</html>

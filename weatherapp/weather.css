@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Heebo";
+    src: url(Heebo-Bold.ttf) format(truetype);
+    
+}
+
+body{
+    font-family: "Heebo";
+    background-image: url("weatherbackdrop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.weatherCard{
+    border: 2px solid;
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(63, 162, 255),rgb(255, 174, 0));
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+.weatherData{
+    padding: 10px;
+    border-radius: 10px;
+}
+.sendWeatherData{
+    padding: 10px;
+    background-color: rgb(0, 196, 0);
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 2px 4px;
+}
+.getWeather{
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.weatherEmoji{
+    font-size: 50px;
+}
+
+.error{
+    background-color: yellow;
+    border: 2px solid;
+    padding: 10px;
+    margin: auto;
+    height: 90px;
+    width: 420px;
+    display: none;
+}

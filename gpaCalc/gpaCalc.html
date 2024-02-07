@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Minnesota GPA Calculator</title>
+    <link rel="stylesheet" href="gpaCalc.css">
+</head>
+<body>
+    <header id="head"><img src="header.png" alt=""></header>
+    <h1 class="header">University of Minnesota Semester GPA Calculator</h1>
+    <br>
+    <br>
+    <br>
+    <h3 class="header">Both Cumulative and Technical GPA will be shown</h3>
+    <br>
+    <br>
+    <br>
+    <div id="gradebox">
+    <label for="">Course 1:</label>
+    <input type="text" id="Course1">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course1grade">
+        <option value="" id="noneGrade1"></option>
+        <option value="A" id="course1A">A</option>
+        <option value="A-" id="course1A-">A-</option>
+        <option value="B+" id="course1B+">B+</option>
+        <option value="B" id="course1B">B</option>
+        <option value="B-" id="course1B-">B-</option>
+        <option value="C+" id="course1C+">C+</option>
+        <option value="C" id="course1C">C</option>
+        <option value="C-" id="course1C-">C-</option>
+        <option value="D+" id="course1D+">D+</option>
+        <option value="D" id="course1D">D</option>
+        <option value="F" id="course1F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course1credits">
+        <option value="" id="noneCred1"></option>
+        <option value="course14">4</option>
+        <option value="course13">3</option>
+        <option value="course12">2</option>
+        <option value="course11">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course1Tech">
+    <br>
+    <br>
+    <label for="">Course 2:</label>
+    <input type="text" id="Course2">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course2grade">
+        <option value="" id="noneGrade2"></option>
+        <option value="" id="course2A">A</option>
+        <option value="" id="course2A-">A-</option>
+        <option value="" id="course2B+">B+</option>
+        <option value="" id="course2B">B</option>
+        <option value="" id="course2B-">B-</option>
+        <option value="" id="course2C+">C+</option>
+        <option value="" id="course2C">C</option>
+        <option value="" id="course2C-">C-</option>
+        <option value="" id="course2D+">D+</option>
+        <option value="" id="course2D">D</option>
+        <option value="" id="course2D-">D-</option>
+        <option value="" id="course2F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course2credits">
+        <option value="" id="noneCred2"></option>
+        <option id="course24">4</option>
+        <option id="course23">3</option>
+        <option id="course22">2</option>
+        <option id="course21">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course2Tech">
+    <br>
+    <br>
+    <label for="">Course 3:</label>
+    <input type="text" id="Course3">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course3grade">
+        <option value="" id="noneGrade3"></option>
+        <option value="" id="course3A">A</option>
+        <option value="" id="course3A-">A-</option>
+        <option value="" id="course3B+">B+</option>
+        <option value="" id="course3B">B</option>
+        <option value="" id="course3B-">B-</option>
+        <option value="" id="course3C+">C+</option>
+        <option value="" id="course3C">C</option>
+        <option value="" id="course3C-">C-</option>
+        <option value="" id="course3D+">D+</option>
+        <option value="" id="course3D">D</option>
+        <option value="" id="course3D-">D-</option>
+        <option value="" id="course3F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course3credits">
+        <option value="" id="noneCred3"></option>
+        <option id="course34">4</option>
+        <option id="course33">3</option>
+        <option id="course32">2</option>
+        <option id="course31">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course3Tech">
+    <br>
+    <br>
+    <label for="">Course 4:</label>
+    <input type="text" id="Course4">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course4grade">
+        <option value="" id="noneGrade4"></option>
+        <option value="" id="course4A">A</option>
+        <option value="" id="course4A-">A-</option>
+        <option value="" id="course4B+">B+</option>
+        <option value="" id="course4B">B</option>
+        <option value="" id="course4B-">B-</option>
+        <option value="" id="course4C+">C+</option>
+        <option value="" id="course4C">C</option>
+        <option value="" id="course4C-">C-</option>
+        <option value="" id="course4D+">D+</option>
+        <option value="" id="course4D">D</option>
+        <option value="" id="course4D-">D-</option>
+        <option value="" id="course4F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course4credits">
+        <option value="" id="noneCred4"></option>
+        <option id="course44">4</option>
+        <option id="course43">3</option>
+        <option id="course42">2</option>
+        <option id="course41">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course4Tech">
+    <br>
+    <br>
+    <label for="">Course 5:</label>
+    <input type="text" id="Course5">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course5grade">
+        <option value="" id="noneGrade5"></option>
+        <option value="" id="course5A">A</option>
+        <option value="" id="course5A-">A-</option>
+        <option value="" id="course5B+">B+</option>
+        <option value="" id="course5B">B</option>
+        <option value="" id="course5B-">B-</option>
+        <option value="" id="course5C+">C+</option>
+        <option value="" id="course5C">C</option>
+        <option value="" id="course5C-">C-</option>
+        <option value="" id="course5D+">D+</option>
+        <option value="" id="course5D">D</option>
+        <option value="" id="course5D-">D-</option>
+        <option value="" id="course5F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course5credits">
+        <option value="" id="noneCred5"></option>
+        <option id="course54">4</option>
+        <option id="course53">3</option>
+        <option id="course52">2</option>
+        <option id="course51">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course5Tech">
+    <br>
+    <br>
+    <label for="">Course 6:</label>
+    <input type="text" id="Course6">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course6grade">
+        <option value="" id="noneGrade6"></option>
+        <option value="" id="course6A">A</option>
+        <option value="" id="course6A-">A-</option>
+        <option value="" id="course6B+">B+</option>
+        <option value="" id="course6B">B</option>
+        <option value="" id="course6B-">B-</option>
+        <option value="" id="course6C+">C+</option>
+        <option value="" id="course6C">C</option>
+        <option value="" id="course6C-">C-</option>
+        <option value="" id="course6D+">D+</option>
+        <option value="" id="course6D">D</option>
+        <option value="" id="course6D-">D-</option>
+        <option value="" id="course6F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course6credits">
+        <option value="" id="noneCred6"></option>
+        <option id="course64">4</option>
+        <option id="course63">3</option>
+        <option id="course62">2</option>
+        <option id="course61">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course6Tech">
+    <br>
+    <br>
+    <label for="">Course 7:</label>
+    <input type="text" id="Course7">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course7grade">
+        <option value="" id="noneGrade7"></option>
+        <option value="" id="course7A">A</option>
+        <option value="" id="course7A-">A-</option>
+        <option value="" id="course7B+">B+</option>
+        <option value="" id="course7B">B</option>
+        <option value="" id="course7B-">B-</option>
+        <option value="" id="course7C+">C+</option>
+        <option value="" id="course7C">C</option>
+        <option value="" id="course7C-">C-</option>
+        <option value="" id="course7D+">D+</option>
+        <option value="" id="course7D">D</option>
+        <option value="" id="course7D-">D-</option>
+        <option value="" id="course7F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course7credits">
+        <option value="" id="noneCred7"></option>
+        <option id="course74">4</option>
+        <option id="course73">3</option>
+        <option id="course72">2</option>
+        <option id="course71">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course7Tech">
+    <br>
+    <br>
+    <label for="">Course 8:</label>
+    <input type="text" id="Course8">
+    <label for="" id="">Grade:</label>
+    <select name="" id="course8grade">
+        <option value="" id="noneGrade8"></option>
+        <option value="" id="course8A">A</option>
+        <option value="" id="course8A-">A-</option>
+        <option value="" id="course8B+">B+</option>
+        <option value="" id="course8B">B</option>
+        <option value="" id="course8B-">B-</option>
+        <option value="" id="course8C+">C+</option>
+        <option value="" id="course8C">C</option>
+        <option value="" id="course8C-">C-</option>
+        <option value="" id="course8D+">D+</option>
+        <option value="" id="course8D">D</option>
+        <option value="" id="course8D-">D-</option>
+        <option value="" id="course8F">F</option>
+    </select>
+    <label for="">Credits:</label>
+    <select name="" id="course8credits">
+        <option value="" id="noneCred8"></option>
+        <option id="course84">4</option>
+        <option id="course83">3</option>
+        <option id="course82">2</option>
+        <option id="course81">1</option>
+    </select>
+    <label for="">Technical Course?</label>
+    <input type="checkbox" id="course8Tech">
+    </div>
+    <br>
+    <br>
+    <button id="submit">Calculate My GPA</button>
+    <br>
+    <br>
+    <button id="reset">Reset</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="gpa" id="cumGPA"></h1>
+    <h1 class="gpa" id="techGPA"></h1>
+    <script src="gpaCalc.js"></script>
+</body>
+</html>

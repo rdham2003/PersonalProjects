@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather tracker</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="icon" href="weather.png">
+</head>
+<body>
+    <form class="getWeather">
+        <label class="weatherLabel"><b>Enter a city:</b></label>
+        <input type="text" class="weatherData" placeholder="Ex. Dallas">
+        <button class="sendWeatherData">Get Weather Data</button>
+    </form>
+    <br>
+    <br>
+    <div class
+    ="error">
+        <h1>Could not fetch weather data</h1>
+    </div>
+    <div class="weatherCard">
+       <h1 class="weatherCity">City</h1> 
+       <hr>
+       <h2 class="temperature">46° F</h2>
+       <h2 class="weatherReport">Sunny</h2>
+       <h2 class="weatherEmoji">☀️</h2>
+       <h2 class="feelsLike">Feels like: 50° F</h2>
+       <h3 class="humidity">Humidity: 76%</h3>
+       <h3 class="windSpeed">Wind Speed: 12mph </h3>
+       <h3 class="windDirection">Wind Direction: South</h3>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
+

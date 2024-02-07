@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "2P";
+    src: url(fonts/PressStart2P-Regular.ttf) format('truetype');
+}
+body{
+    background-color: gray;
+    font-family: "2P";
+}
+#title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#stopwatch{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.game{
+    width: 560px;
+    height: 560px;
+    border-color: black;
+    border-style: ridge;
+    margin: auto;
+}
+#minesweeper{
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+#mineCount{
+    position: absolute;
+    left: 36%;
+    bottom:82.24%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+#flag{
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+#flagCount{
+    position: absolute;
+    left: 66%;
+    bottom:82.24%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.tile{
+    width: 50px;
+    height: 50px;
+    border-style: ridge;
+    border-color: black;
+    background-color: rgb(44, 46, 44);
+    box-shadow: 0 4px 8px;
+    float: left;
+    margin: 0px;
+    text-align: center;
+    line-height: 50px
+}
+.tile:hover{
+    background-color: lightgrey;
+}
+
+#decision{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#restart{
+    font-family: "2P";
+    padding: 10px;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+#restart:hover{
+    background-color: gray;
+}
+#mCount{
+    display: block;
+    margin: auto;
+}
