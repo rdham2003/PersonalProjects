@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "TheOne";
+    src: url(fonts/MadimiOne-Regular.ttf);
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: auto; 
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 0.9em;
+    padding-left: 1em;
+    font-size: 1.4em;
+    display: flex;
+}
+.navbar li{
+    font-family: "TheOne";
+    color: gray;
+    padding-top: 0.5em;
+    display: inline-block;
+    text-align: center; 
+}
+
+#logo{
+    height: 4em;
+    padding: 0.8em;
+}
+#signup{
+    padding: 10px;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 1.4em;
+    border-width: 0em;
+    font-family: "TheOne";
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#signup:hover{
+    padding: 0.5em;
+    font-size: 2em;
+    background-color: green;
+}
+.Welcome{
+    font-family: "TheOne";
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+}
+.Welcome2{
+    font-family: "TheOne";
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+}
+#loginContainer{
+    font-family: "TheOne";
+    border: 2px solid black;
+    margin: auto;
+    height: 40em;
+    width: 20em;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 1em;
+
+}
+#loginMain{
+    text-align: center;
+}
+#loginText{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#logInButton{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 1.4em;
+    border-width: 0em;
+    font-family: "TheOne";
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#logInButton:hover{
+    background-color: green;
+}
+#searchbar{
+    height: 2em;
+    width: 50em;
+    font-size: 1em;
+    margin: auto;
+}
+#searchHeader{
+    display: block;
+    text-align: center;
+    font-family: "Verdana";
+}
+#searchContainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+

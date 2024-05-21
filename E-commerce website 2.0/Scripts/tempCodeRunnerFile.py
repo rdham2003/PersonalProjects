@@ -1,0 +1,1 @@
+            # newLine[1] = float(newLine[1])

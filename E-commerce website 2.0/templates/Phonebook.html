@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Phonebook.css') }}">
+</head>
+<body>
+    <div id="main_container">
+        <h1>Phonebook App</h1>
+        <form action="/" method="POST">
+            <label for="phoneNumber">Phone Number:</label><br>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="(123) 456-7890"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div>
+        {% if names %}
+            <h2>Names Found:</h2>
+            <ul>
+                {% for name in names %}
+                    <li>{{ name }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>
