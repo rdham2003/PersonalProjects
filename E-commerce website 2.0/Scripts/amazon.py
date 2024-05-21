@@ -35,7 +35,7 @@ productData = productCursor.fetchall()
 
 if len(productData) == 0:
     productList = []
-    with open("products.csv", 'r') as file:
+    with open("E-commerce website 2.0", 'r') as file:
         for line in file:
             newLine = line.split(',')
             for i in range(len(newLine)-2):
