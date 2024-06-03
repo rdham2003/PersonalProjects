@@ -30,9 +30,9 @@ data['Survival %'] = survivalPercent
 df = pd.DataFrame(data)
 print(df)
 
-#Self explanitory nyamean?
-df.to_csv('Actual Fucking Code\\apocalypse_data.csv', index=False)
+
+df.to_csv('apocalypse_data.csv', index=False)
 
 print("CSV generated.")
 
-#Written by PythonGenius69420 aka Terry Davis' protege
+

@@ -26,7 +26,7 @@ sns.heatmap(correlation_matrix, annot=True, cmap='RdBu')
 plt.title("Apocalyptic Survival Chance")
 plt.show()
 
-#I genuinely have no idea what this shit means I thought it just looked cool tbh...
+
 
 #x is the independent variables of the dataset
 #y is the dependent variable of the dataset
