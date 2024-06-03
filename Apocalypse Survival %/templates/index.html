@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apocalyptic Scenario Survival %</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <h1 id="Title">Apocalyptic Scenario Survival % Calculator</h1>
+    <br>
+    <br>
+    <div id="main_container">
+        <form action="/predict" method="POST">
+            <label for="">Age (in years): </label>
+            <input type="text" id="ageBox" name="ageBox">
+            <br>
+            <br>
+            <label for="">Height (in meters): </label>
+            <input type="text" id="heightBox" name="heightBox">
+            <br>
+            <br>
+            <label for="">Weight (in Kilograms): </label>
+            <input type="text" id="weightBox" name="weightBox">
+            <br>
+            <br>
+            <label for="">IQ: </label>
+            <input type="text" id="IQBox" name="IQBox">
+            <br>
+            <br>
+            <label for="">Ability to fight: </label>
+            <select id="AtoFBox" name="AtoFBox">
+                <option value="0">None</option>
+                <option value="1">Basic</option>
+                <option value="2">Intermediate</option>
+                <option value="3">Advanced</option>
+                <option value="4">Expert</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Weapons: </label>
+            <select id="weaponsBox" name="weaponsBox">
+                <option value="0">None</option>
+                <option value="1">Kitchen Utensils</option>
+                <option value="2">Guns</option>
+                <option value="3">Artillery</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Vehicles: </label>
+            <select id="vehiclesBox" name="vehiclesBox">
+                <option value="0">None</option>
+                <option value="1">Bikes</option>
+                <option value="2">Motor Vehicles</option>
+                <option value="3">Helicopters</option>
+                <option value="4">Planes</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Food supply? (# of days)</label>
+            <input type="text" id="foodBox" name="foodBox">
+            <br>
+            <br>
+            <button id="submit">Predict my chances of survival!</button>
+        </form>
+        <br>
+        <br>
+        <h3 class="load">Tabulating Chances</h3>
+        <div id="loader" class="load"></div>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>

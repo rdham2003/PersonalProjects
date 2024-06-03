@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "REM";
+    src: url(fonts/REM-Black.ttf);
+}
+
+body {
+    background-image: url(apocalypsebackdrop.jpg);
+    background-size: cover;
+}
+#Title {
+    text-align: center;
+    font-family: "REM";
+    color: gray;
+}
+#main_container {
+    font-family: "REM";
+    color: rgb(255, 255, 255);
+    border: 2px black solid;
+    padding: 1.5em;
+    height: 25em;
+    width: 20em;
+    margin: auto;
+    border-radius: 1em;
+    background: linear-gradient(180deg, rgb(4, 29, 66),rgb(255, 174, 0));
+}
+#submit {
+    font-family: "REM";
+    background-color: white;
+    border: none;
+}
+#loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    animation: spin 2s linear infinite;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.load{
+    visibility: hidden;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-family: "REM";;
+    color: gray;
+    text-align: center;
+}
+
+#tryAgain {
+    display: block;
+    font-family: "REM";
+    background-color: white;
+    border: none;
+    margin: auto;
+}

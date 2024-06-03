@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apocalyptic Scenario Survival % Calculator</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <div id="main_container">
+    {% if data %}
+        <h1>{{ data }}</h1>
+    {% endif %}
+    <br>
+    <br>
+    <form action="/return" method="POST">
+        <button id="tryAgain">Try Again</button>
+    </form>
+    </div>
+</body>
+</html>
